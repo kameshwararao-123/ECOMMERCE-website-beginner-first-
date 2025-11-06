@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import Title from './Title'
 import { ShopContext } from '../context/ShopContext'
-import { get } from 'jquery';
 
 const CartTotal = () => {
     const {currency,delivery_fee,gettotalamount,navigate}=useContext(ShopContext);
