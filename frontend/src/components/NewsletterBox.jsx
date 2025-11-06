@@ -1,4 +1,3 @@
-import { event } from 'jquery';
 import React from 'react'
 
 const NewsletterBox = () => {
