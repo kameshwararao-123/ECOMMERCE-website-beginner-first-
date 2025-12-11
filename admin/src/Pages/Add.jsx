@@ -42,6 +42,9 @@ const Add = ({token}) => {
         setimage2(false);
         setimage3(false);
         setimage4(false);
+        setcategory('');
+        setsubCategory('');
+        setbestseller(false);
         setprice('');
       }
       else{
